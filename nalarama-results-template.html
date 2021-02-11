@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chango&display=swap"
+      rel="stylesheet"
+    />
+    <title>Nalarama Results Are In!</title>
+  </head>
+  <body
+    style="
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #03fcb1;
+    "
+  >
+    <img
+      style="width: 100%; height: auto"
+      src="https://i.ibb.co/b2hc9Kn/results-are-in-bigger.png"
+      alt="results-are-in-bigger"
+      border="0"
+    />
+    <h2 style="margin: 5px; text-align: center; width: auto">
+      Congratulations to the participants with the top 3 scores!
+    </h2>
+    <table style="background-color: #03fcb1">
+      <tr>
+        <td style="font-size: 40px; font-weight: 600">1.</td>
+      </tr>
+      <tr>
+        <td style="font-size: 36px; font-weight: 600">2.</td>
+      </tr>
+      <tr>
+        <td style="font-size: 32px; font-weight: 600">3.</td>
+      </tr>
+    </table>
+    <table class="personal-results">
+      <tr>
+        <td style="margin: 5px; text-align: center; width: auto">
+          Your guesses:
+        </td>
+      </tr>
+    </table>
+    <table style="width: auto; border-collapse: collapse; align-self: center">
+      <tr>
+        <th
+          style="
+            font-size: 16pt;
+            font-weight: 900;
+            padding-bottom: 10px;
+            padding: 10px;
+          "
+          className="table-summary-title"
+        >
+          Summary
+        </th>
+        <th style="padding: 10px; padding-bottom: 0px; font-weight: 800">
+          Breeds
+        </th>
+        <th style="padding: 10px; padding-bottom: 0px; font-weight: 800">
+          Percentages
+        </th>
+      </tr>
+      <tr>
+        <td
+          style="
+            text-align: center;
+            border: #05a374 2px solid;
+            padding: 10px;
+            width: fit-content;
+          "
+        >
+          1
+        </td>
+        <td
+          style="
+            text-align: center;
+            border: #05a374 2px solid;
+            padding: 10px;
+            width: fit-content;
+          "
+        >
+          {breedOne}
+        </td>
+        <td
+          style="
+            text-align: center;
+            border: #05a374 2px solid;
+            padding: 10px;
+            width: fit-content;
+          "
+        >
+          {percentOne}%
+        </td>
+      </tr>
+      <tr>
+        <td
+          style="
+            text-align: center;
+            border: #05a374 2px solid;
+            padding: 10px;
+            width: fit-content;
+          "
+        >
+          2
+        </td>
+        <td
+          style="
+            text-align: center;
+            border: #05a374 2px solid;
+            padding: 10px;
+            width: fit-content;
+          "
+        >
+          {breedTwo}
+        </td>
+        <td
+          style="
+            text-align: center;
+            border: #05a374 2px solid;
+            padding: 10px;
+            width: fit-content;
+          "
+        >
+          {percentTwo}%
+        </td>
+      </tr>
+      <tr>
+        <td
+          style="
+            text-align: center;
+            border: #05a374 2px solid;
+            padding: 10px;
+            width: fit-content;
+          "
+        >
+          3
+        </td>
+        <td
+          style="
+            text-align: center;
+            border: #05a374 2px solid;
+            padding: 10px;
+            width: fit-content;
+          "
+        >
+          {breedThree}
+        </td>
+        <td
+          style="
+            text-align: center;
+            border: #05a374 2px solid;
+            padding: 10px;
+            width: fit-content;
+          "
+        >
+          {percentThree}%
+        </td>
+      </tr>
+      <tr>
+        <td
+          style="
+            text-align: center;
+            border: #05a374 2px solid;
+            padding: 10px;
+            width: fit-content;
+          "
+        >
+          4
+        </td>
+        <td
+          style="
+            text-align: center;
+            border: #05a374 2px solid;
+            padding: 10px;
+            width: fit-content;
+          "
+        >
+          {breedFour}
+        </td>
+        <td
+          style="
+            text-align: center;
+            border: #05a374 2px solid;
+            padding: 10px;
+            width: fit-content;
+          "
+        >
+          {percentFour}%
+        </td>
+      </tr>
+      <tr>
+        <td
+          style="
+            text-align: center;
+            border: #05a374 2px solid;
+            padding: 10px;
+            width: fit-content;
+          "
+        >
+          5
+        </td>
+        <td
+          style="
+            text-align: center;
+            border: #05a374 2px solid;
+            padding: 10px;
+            width: fit-content;
+          "
+        >
+          {breedFive}
+        </td>
+        <td
+          style="
+            text-align: center;
+            border: #05a374 2px solid;
+            padding: 10px;
+            width: fit-content;
+          "
+        >
+          {percentFive}%
+        </td>
+      </tr>
+    </table>
+    <table
+      class="adult-weight-table"
+      style="
+        margin-top: 10px;
+        width: auto;
+        border-collapse: collapse;
+        align-self: center;
+      "
+    >
+      <tr>
+        <td
+          style="
+            text-align: center;
+            border: #05a374 2px solid;
+            padding: 10px;
+            width: fit-content;
+          "
+        >
+          Adult Weight Guess
+        </td>
+        <td
+          style="
+            text-align: center;
+            border: #05a374 2px solid;
+            padding: 10px;
+            width: fit-content;
+          "
+        >
+          38 lbs.
+        </td>
+      </tr>
+    </table>
+    <h3>Here is your personal score!</h3>
+    <h1>Score Here</h1>
+    <h3></h3>
+    <h2 style="margin: 5px; text-align: center; width: auto">
+      Thank you so much for participating!
+    </h2>
+  </body>
+</html>
